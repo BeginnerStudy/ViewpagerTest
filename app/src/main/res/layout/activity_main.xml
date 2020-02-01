@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.viewpagertest.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/relati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/shape">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/heart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_heart"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9999"
+            android:textSize="18dp"
+            android:textColor="#FFF"
+            android:layout_toEndOf="@+id/heart"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_a"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/shape"
+        android:layout_below="@id/relati">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/coin"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_money"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="888888"
+            android:textSize="18dp"
+            android:textColor="#FFF"
+            android:layout_toEndOf="@+id/coin"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_a"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/setting"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_setting"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/messa"
+        android:layout_toLeftOf="@+id/setting"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_message"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_toLeftOf="@+id/messa"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_freinds"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_left"
+        app:backgroundTint="#00ffffff"/>
+
+    <ImageButton
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_right"
+        app:backgroundTint="#00FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/btn_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_down"
+        app:backgroundTint="#00FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/btn_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_up"
+        app:backgroundTint="#00ffffff"/>
+
+</RelativeLayout>
