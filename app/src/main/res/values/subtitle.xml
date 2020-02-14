@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="city_npc">
+        <item>NPC:你好，歡迎光臨*</item>
+        <item>NPC:你所在的位置是遊戲的城市，這裡很安全*</item>
+        <item>NPC:但是城市外面就不安全了*</item>
+        <item>NPC:建議先在城裡做好準備再出發*</item>
+        <item>玩家:謝謝，我想要拯救世界，你願意幫助我嗎?*</item>
+        <item>NPC:我只想一直待在城市裡面，祝你好運。*</item>
+        <item>玩家:......。*</item>
+    </string-array>
+
+</resources>
